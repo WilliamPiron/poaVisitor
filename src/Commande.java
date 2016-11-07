@@ -29,13 +29,6 @@ public class Commande implements IVisitable {
         this.remplissage = 0;
     }
 
-    void Commande(String name, Ligne l){
-        this.name = name;
-        this.liste = new ArrayList<Ligne>(this.capacite);
-        this.remplissage = 0;
-        addLigne(l);
-    }
-
     @Override
     public void accept(IVisitor visitor) {
 
