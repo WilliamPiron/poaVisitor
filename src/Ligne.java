@@ -14,6 +14,6 @@ public class Ligne implements IVisitable {
 
     @Override
     public void accept(IVisitor visitor) {
-
+        IVisitor.visit(this);
     }
 }

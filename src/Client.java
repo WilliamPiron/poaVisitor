@@ -24,7 +24,7 @@ public class Client implements IVisitable {
 
     @Override
     public void accept(IVisitor visitor) {
-
+        IVisitor.visit(this);
     }
 
     void addCommande(Commande c){

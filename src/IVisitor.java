@@ -3,8 +3,23 @@
  */
 public interface IVisitor {
 
-    void visit(Client client);
-    void visit(Commande commande);
-    void visit(Ligne ligne);
-    void afficherCommande();
+    public static void visit(Client client){
+
+    }
+
+    public static void visit(Commande commande){
+
+    }
+
+    public static void visit(Ligne ligne){
+
+    }
+
+    /*
+    NOTE : PAS UTILE, A OUBLIER
+
+    public static void afficherCommande(){
+
+    }
+    */
 }

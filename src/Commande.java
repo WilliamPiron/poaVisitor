@@ -31,6 +31,6 @@ public class Commande implements IVisitable {
 
     @Override
     public void accept(IVisitor visitor) {
-
+        IVisitor.visit(this);
     }
 }
